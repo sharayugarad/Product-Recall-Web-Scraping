@@ -1,0 +1,23 @@
+# Core scraping dependencies
+selenium
+requests
+beautifulsoup4
+lxml
+ 
+# WebDriver management
+webdriver-manager
+chromedriver-autoinstaller
+ 
+# Virtual display for Linux headless operation (Python wrapper for Xvfb)
+pyvirtualdisplay
+ 
+# Cross-platform support
+psutil
+ 
+# Data handling
+pandas
+numpy
+ 
+# Logging and utilities
+colorama
+tqdm

@@ -1,0 +1,13 @@
+{
+  "EMAIL_USERNAME": "marketing.landk@gmail.com",
+  "EMAIL_PASSWORD": "zzkg povg qsex fjag",
+  "EMAIL_SMTP_HOST": "smtp.gmail.com",
+  "EMAIL_SMTP_PORT": "587",
+  "EMAIL_USE_SSL": "false",
+  "RECEIVER_EMAIL": "teammarketinglnk@gmail.com,sgarad@zlk.com",
+  "FSIS_ENABLED": "true",
+  "FSIS_MAX_PAGES": "3",
+  "SCOUT_ENABLED": "true",
+  "SCOUT_MAX_PAGES": "50"
+
+}
