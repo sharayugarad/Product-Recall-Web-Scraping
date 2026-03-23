@@ -1,9 +1,9 @@
 {
   "scraping_metadata": {
-    "scraped_at": "2026-03-20T07:09:43.767985",
+    "scraped_at": "2026-03-23T08:04:26.150544",
     "total_links": 189,
-    "new_links_found": 8,
-    "existing_links": 181,
+    "new_links_found": 0,
+    "existing_links": 189,
     "source_url": "https://www.cpsc.gov/Recalls",
     "scraper_version": "3.0.0-cpsc-filtered",
     "platform": "Darwin"
