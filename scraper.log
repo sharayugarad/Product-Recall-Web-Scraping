@@ -2948,3 +2948,47 @@ Stacktrace:
 2026-03-23 08:28:29,890 - INFO - Duration: 1577.73s
 2026-03-23 08:28:29,891 - INFO - ============================================================
 
+2026-03-24 06:58:27,363 - INFO - 
+============================================================
+2026-03-24 06:58:27,363 - INFO -  STARTING UNIFIED SCRAPER
+2026-03-24 06:58:27,363 - INFO - ============================================================
+2026-03-24 06:58:27,363 - INFO - Platform: Darwin
+2026-03-24 06:58:27,363 - INFO - CPSC: ON
+2026-03-24 06:58:27,363 - INFO - FDA:  ON
+2026-03-24 06:58:27,363 - INFO - FSIS: ON
+2026-03-24 06:58:27,363 - INFO - SCOUT: ON
+2026-03-24 06:58:27,363 - INFO - Batch: OFF
+2026-03-24 06:58:27,363 - INFO - 
+============================================================
+2026-03-24 06:58:27,363 - INFO -  Running CPSC Scraper
+2026-03-24 06:58:27,363 - INFO - ============================================================
+2026-03-24 07:03:27,721 - ERROR -  CPSC error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-03-24 07:03:27,722 - INFO - 
+============================================================
+2026-03-24 07:03:27,722 - INFO -  Running FDA Scraper
+2026-03-24 07:03:27,722 - INFO - ============================================================
+2026-03-24 07:09:34,743 - ERROR -  FDA error: Failed to initialize WebDriver
+2026-03-24 07:09:34,743 - INFO - 
+============================================================
+2026-03-24 07:09:34,743 - INFO -  Running FSIS Scraper
+2026-03-24 07:09:34,743 - INFO - ============================================================
+2026-03-24 07:15:04,546 - ERROR -  FSIS error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-03-24 07:15:04,548 - INFO - 
+============================================================
+2026-03-24 07:15:04,548 - INFO -  Running SCOUT (Product Recall) Scraper
+2026-03-24 07:15:04,548 - INFO - ============================================================
+2026-03-24 07:15:04,549 - ERROR -  SCOUT error: No module named 'undetected_chromedriver'
+2026-03-24 07:15:04,550 - INFO - SCOUT run result: success=False new_urls=0 error=No module named 'undetected_chromedriver'
+2026-03-24 07:15:04,551 - INFO -  Sending combined digest email (CPSC=0, FDA=0, FSIS=0, SCOUT=0)
+2026-03-24 07:15:16,183 - INFO - 
+============================================================
+2026-03-24 07:15:16,184 - INFO -  SUMMARY
+2026-03-24 07:15:16,184 - INFO - ============================================================
+2026-03-24 07:15:16,184 - INFO - Successful: 0
+2026-03-24 07:15:16,184 - INFO - Failed: 4
+2026-03-24 07:15:16,185 - INFO - Total URLs: 0
+2026-03-24 07:15:16,185 - INFO - Duration: 1008.82s
+2026-03-24 07:15:16,185 - INFO - ============================================================
+

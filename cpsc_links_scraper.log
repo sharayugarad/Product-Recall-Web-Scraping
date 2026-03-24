@@ -39437,3 +39437,78 @@ Stacktrace:
 2026-03-23 08:28:29,890 - INFO - Duration: 1577.73s
 2026-03-23 08:28:29,891 - INFO - ============================================================
 
+2026-03-24 06:58:27,364 - INFO - Loaded 189 existing URLs from /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/cpsc_seen_urls.json
+2026-03-24 06:58:27,364 - INFO - Setting up Chrome WebDriver...
+2026-03-24 07:03:27,720 - WARNING - There was an error managing chrome; using browser found in the cache
+2026-03-24 07:03:27,721 - ERROR -  CPSC error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-03-24 07:03:27,722 - INFO - 
+============================================================
+2026-03-24 07:03:27,722 - INFO -  Running FDA Scraper
+2026-03-24 07:03:27,722 - INFO - ============================================================
+2026-03-24 07:03:27,724 - INFO - Starting FDA recall scraping...
+2026-03-24 07:03:27,725 - INFO - Loaded 1230 existing URLs from /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/fda_seen_urls.json
+2026-03-24 07:03:27,725 - INFO - Initializing Chrome WebDriver with enhanced cross-platform support...
+2026-03-24 07:03:27,725 - INFO - Trying ChromeDriver method 1/3...
+2026-03-24 07:09:13,422 - WARNING - There was an error managing chrome; using browser found in the cache
+2026-03-24 07:09:13,423 - WARNING - ChromeDriver method 1 failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-03-24 07:09:13,423 - INFO - Trying ChromeDriver method 2/3...
+2026-03-24 07:09:13,430 - WARNING - ChromeDriver method 2 failed: [Errno 2] No such file or directory: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+2026-03-24 07:09:13,430 - INFO - Trying ChromeDriver method 3/3...
+2026-03-24 07:09:13,431 - INFO - ====== WebDriver manager ======
+2026-03-24 07:09:13,472 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 07:09:13,627 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_mac_arm64.zip
+2026-03-24 07:09:14,222 - INFO - Driver downloading response is 200
+2026-03-24 07:09:33,301 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 07:09:34,014 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 07:09:34,269 - INFO - Driver has been saved in cache [/Users/sharayu/.wdm/drivers/chromedriver/mac64/114.0.5735.90]
+2026-03-24 07:09:34,743 - WARNING - ChromeDriver method 3 failed: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000104da7f48 chromedriver + 4226888
+1   chromedriver                        0x0000000104da04f4 chromedriver + 4195572
+2   chromedriver                        0x00000001049e4d68 chromedriver + 281960
+3   chromedriver                        0x0000000104a0bc24 chromedriver + 441380
+4   chromedriver                        0x0000000104a0a150 chromedriver + 434512
+5   chromedriver                        0x0000000104a4793c chromedriver + 686396
+6   chromedriver                        0x0000000104a47164 chromedriver + 684388
+7   chromedriver                        0x0000000104a13f1c chromedriver + 474908
+8   chromedriver                        0x0000000104a14ef4 chromedriver + 478964
+9   chromedriver                        0x0000000104d6959c chromedriver + 3970460
+10  chromedriver                        0x0000000104d6d6f0 chromedriver + 3987184
+11  chromedriver                        0x0000000104d735b4 chromedriver + 4011444
+12  chromedriver                        0x0000000104d6e2fc chromedriver + 3990268
+13  chromedriver                        0x0000000104d461c0 chromedriver + 3826112
+14  chromedriver                        0x0000000104d8a088 chromedriver + 4104328
+15  chromedriver                        0x0000000104d8a1e0 chromedriver + 4104672
+16  chromedriver                        0x0000000104d99f28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000198133c08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019812eba8 thread_start + 8
+
+2026-03-24 07:09:34,743 - ERROR - All WebDriver initialization methods failed
+2026-03-24 07:09:34,743 - ERROR -  FDA error: Failed to initialize WebDriver
+2026-03-24 07:09:34,743 - INFO - 
+============================================================
+2026-03-24 07:09:34,743 - INFO -  Running FSIS Scraper
+2026-03-24 07:09:34,743 - INFO - ============================================================
+2026-03-24 07:09:34,743 - INFO - Setting up Chrome WebDriver for FSIS...
+2026-03-24 07:15:04,544 - WARNING - There was an error managing chrome; using browser found in the cache
+2026-03-24 07:15:04,546 - ERROR -  FSIS error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-03-24 07:15:04,548 - INFO - 
+============================================================
+2026-03-24 07:15:04,548 - INFO -  Running SCOUT (Product Recall) Scraper
+2026-03-24 07:15:04,548 - INFO - ============================================================
+2026-03-24 07:15:04,549 - ERROR -  SCOUT error: No module named 'undetected_chromedriver'
+2026-03-24 07:15:04,550 - INFO - SCOUT run result: success=False new_urls=0 error=No module named 'undetected_chromedriver'
+2026-03-24 07:15:04,551 - INFO -  Sending combined digest email (CPSC=0, FDA=0, FSIS=0, SCOUT=0)
+2026-03-24 07:15:16,183 - INFO - 
+============================================================
+2026-03-24 07:15:16,184 - INFO -  SUMMARY
+2026-03-24 07:15:16,184 - INFO - ============================================================
+2026-03-24 07:15:16,184 - INFO - Successful: 0
+2026-03-24 07:15:16,184 - INFO - Failed: 4
+2026-03-24 07:15:16,185 - INFO - Total URLs: 0
+2026-03-24 07:15:16,185 - INFO - Duration: 1008.82s
+2026-03-24 07:15:16,185 - INFO - ============================================================
+
