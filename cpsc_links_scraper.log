@@ -39512,3 +39512,709 @@ Stacktrace:
 2026-03-24 07:15:16,185 - INFO - Duration: 1008.82s
 2026-03-24 07:15:16,185 - INFO - ============================================================
 
+2026-03-25 06:51:52,429 - INFO - Loaded 189 existing URLs from /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/cpsc_seen_urls.json
+2026-03-25 06:51:52,429 - INFO - Setting up Chrome WebDriver...
+2026-03-25 06:52:03,108 - INFO - Chrome WebDriver initialized successfully
+2026-03-25 06:52:03,109 - INFO - Email notifications enabled
+2026-03-25 06:52:03,109 - INFO - Starting CPSC links scraping...
+2026-03-25 06:52:03,109 - INFO - Navigating to https://www.cpsc.gov/Recalls
+2026-03-25 06:52:18,137 - INFO - Scraping page 1
+2026-03-25 06:52:28,263 - INFO - Page 1: 13 valid recall links found
+2026-03-25 06:52:35,363 - INFO - Scraping page 2
+2026-03-25 06:52:45,467 - INFO - Page 2: 13 valid recall links found
+2026-03-25 06:52:51,888 - INFO - Scraping page 3
+2026-03-25 06:53:01,958 - INFO - Page 3: 13 valid recall links found
+2026-03-25 06:53:16,139 - INFO - Scraping page 4
+2026-03-25 06:53:26,206 - INFO - Page 4: 13 valid recall links found
+2026-03-25 06:53:30,944 - INFO - Scraping page 5
+2026-03-25 06:53:41,043 - INFO - Page 5: 13 valid recall links found
+2026-03-25 06:53:46,870 - INFO - Scraping page 6
+2026-03-25 06:53:56,966 - INFO - Page 6: 13 valid recall links found
+2026-03-25 06:54:02,740 - INFO - Scraping page 7
+2026-03-25 06:54:12,813 - INFO - Page 7: 13 valid recall links found
+2026-03-25 06:54:18,198 - INFO - Scraping page 8
+2026-03-25 06:54:28,279 - INFO - Page 8: 13 valid recall links found
+2026-03-25 06:54:35,172 - INFO - Scraping page 9
+2026-03-25 06:54:45,263 - INFO - Page 9: 13 valid recall links found
+2026-03-25 06:54:45,264 - INFO - Reached specified end_page limit: 9
+2026-03-25 06:54:45,265 - INFO - Scrape complete in 162.16s
+2026-03-25 06:54:45,265 - INFO - Total scraped this run (valid): 189
+2026-03-25 06:54:45,265 - INFO - Existing before run: 189
+2026-03-25 06:54:45,266 - INFO - New links found: 0
+2026-03-25 06:54:45,272 - INFO - Links saved to /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/cpsc_seen_urls.json
+2026-03-25 06:54:45,272 - INFO - Total links saved: 189
+2026-03-25 06:54:45,511 - INFO - WebDriver closed successfully
+2026-03-25 06:54:45,511 - INFO -  CPSC completed: 0 new links in 173.08s
+2026-03-25 06:54:45,513 - INFO - 
+============================================================
+2026-03-25 06:54:45,513 - INFO -  Running FDA Scraper
+2026-03-25 06:54:45,513 - INFO - ============================================================
+2026-03-25 06:54:45,515 - INFO - Starting FDA recall scraping...
+2026-03-25 06:54:45,525 - INFO - Loaded 1230 existing URLs from /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/fda_seen_urls.json
+2026-03-25 06:54:45,526 - INFO - Initializing Chrome WebDriver with enhanced cross-platform support...
+2026-03-25 06:54:45,526 - INFO - Trying ChromeDriver method 1/3...
+2026-03-25 06:54:49,410 - INFO - Using system ChromeDriver: chromedriver.exe
+2026-03-25 06:54:49,412 - INFO - ChromeDriver method 1 successful
+2026-03-25 06:54:49,412 - INFO - Navigating to https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts
+2026-03-25 06:55:04,233 - INFO - Waiting for DataTables to fully initialize...
+2026-03-25 06:55:07,247 - INFO - DataTables initialization complete
+2026-03-25 06:55:07,248 - INFO - Scraping page 1
+2026-03-25 06:55:07,267 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:07,406 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:07,406 - INFO - Page 1: 10 recalls, 1 new
+2026-03-25 06:55:07,410 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:07,417 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:07,417 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:10,935 - INFO - Scraping page 2
+2026-03-25 06:55:10,951 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:11,099 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:11,099 - INFO - Page 2: 10 recalls, 0 new
+2026-03-25 06:55:11,102 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:11,110 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:11,110 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:14,624 - INFO - Scraping page 3
+2026-03-25 06:55:14,642 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:14,780 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:14,780 - INFO - Page 3: 10 recalls, 0 new
+2026-03-25 06:55:14,784 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:14,790 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:14,790 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:18,316 - INFO - Scraping page 4
+2026-03-25 06:55:18,332 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:18,454 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:18,454 - INFO - Page 4: 10 recalls, 0 new
+2026-03-25 06:55:18,457 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:18,462 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:18,462 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:21,979 - INFO - Scraping page 5
+2026-03-25 06:55:22,015 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:22,173 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:22,174 - INFO - Page 5: 10 recalls, 0 new
+2026-03-25 06:55:22,177 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:22,183 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:22,183 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:25,702 - INFO - Scraping page 6
+2026-03-25 06:55:25,715 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:25,832 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:25,832 - INFO - Page 6: 10 recalls, 0 new
+2026-03-25 06:55:25,835 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:25,841 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:25,841 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:29,354 - INFO - Scraping page 7
+2026-03-25 06:55:29,394 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:29,887 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:29,889 - INFO - Page 7: 10 recalls, 0 new
+2026-03-25 06:55:29,900 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:29,951 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:29,951 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:33,498 - INFO - Scraping page 8
+2026-03-25 06:55:33,518 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:33,626 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:33,626 - INFO - Page 8: 10 recalls, 0 new
+2026-03-25 06:55:33,629 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:33,634 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:33,634 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:37,154 - INFO - Scraping page 9
+2026-03-25 06:55:37,170 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:37,289 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:37,289 - INFO - Page 9: 10 recalls, 0 new
+2026-03-25 06:55:37,292 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:37,297 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:37,297 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:40,814 - INFO - Scraping page 10
+2026-03-25 06:55:40,833 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:40,947 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:40,947 - INFO - Page 10: 10 recalls, 0 new
+2026-03-25 06:55:40,950 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:40,955 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:40,955 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:44,465 - INFO - Scraping page 11
+2026-03-25 06:55:44,483 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:44,606 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:44,606 - INFO - Page 11: 10 recalls, 0 new
+2026-03-25 06:55:44,609 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:44,614 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:44,614 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:48,131 - INFO - Scraping page 12
+2026-03-25 06:55:48,151 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:48,291 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:48,291 - INFO - Page 12: 10 recalls, 0 new
+2026-03-25 06:55:48,293 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:48,298 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:48,299 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:51,811 - INFO - Scraping page 13
+2026-03-25 06:55:51,826 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:51,955 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:51,955 - INFO - Page 13: 10 recalls, 0 new
+2026-03-25 06:55:51,957 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:51,962 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:51,962 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:55,480 - INFO - Scraping page 14
+2026-03-25 06:55:55,496 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:55,617 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:55,617 - INFO - Page 14: 10 recalls, 0 new
+2026-03-25 06:55:55,619 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:55,624 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:55,624 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:55:59,147 - INFO - Scraping page 15
+2026-03-25 06:55:59,176 - INFO - Found 10 table rows on current page
+2026-03-25 06:55:59,291 - INFO - Extracted 10 URLs from table
+2026-03-25 06:55:59,291 - INFO - Page 15: 10 recalls, 0 new
+2026-03-25 06:55:59,294 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:55:59,298 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:55:59,298 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:02,814 - INFO - Scraping page 16
+2026-03-25 06:56:02,831 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:02,962 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:02,963 - INFO - Page 16: 10 recalls, 0 new
+2026-03-25 06:56:02,965 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:02,970 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:02,970 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:06,484 - INFO - Scraping page 17
+2026-03-25 06:56:06,506 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:06,626 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:06,626 - INFO - Page 17: 10 recalls, 0 new
+2026-03-25 06:56:06,629 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:06,634 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:06,634 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:10,151 - INFO - Scraping page 18
+2026-03-25 06:56:10,166 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:10,287 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:10,287 - INFO - Page 18: 10 recalls, 0 new
+2026-03-25 06:56:10,290 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:10,295 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:10,295 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:13,811 - INFO - Scraping page 19
+2026-03-25 06:56:13,825 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:13,942 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:13,942 - INFO - Page 19: 10 recalls, 0 new
+2026-03-25 06:56:13,945 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:13,949 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:13,950 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:17,465 - INFO - Scraping page 20
+2026-03-25 06:56:17,480 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:17,592 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:17,592 - INFO - Page 20: 10 recalls, 0 new
+2026-03-25 06:56:17,595 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:17,600 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:17,600 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:21,113 - INFO - Scraping page 21
+2026-03-25 06:56:21,127 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:21,229 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:21,229 - INFO - Page 21: 10 recalls, 0 new
+2026-03-25 06:56:21,232 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:21,240 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:21,240 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:24,757 - INFO - Scraping page 22
+2026-03-25 06:56:24,776 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:24,899 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:24,899 - INFO - Page 22: 10 recalls, 0 new
+2026-03-25 06:56:24,901 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:24,906 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:24,906 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:28,423 - INFO - Scraping page 23
+2026-03-25 06:56:28,437 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:28,563 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:28,563 - INFO - Page 23: 10 recalls, 0 new
+2026-03-25 06:56:28,566 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:28,571 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:28,571 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:32,088 - INFO - Scraping page 24
+2026-03-25 06:56:32,105 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:32,219 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:32,219 - INFO - Page 24: 10 recalls, 0 new
+2026-03-25 06:56:32,221 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:32,226 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:32,226 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:35,749 - INFO - Scraping page 25
+2026-03-25 06:56:35,763 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:35,869 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:35,869 - INFO - Page 25: 10 recalls, 0 new
+2026-03-25 06:56:35,871 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:35,875 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:35,875 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:39,390 - INFO - Scraping page 26
+2026-03-25 06:56:39,414 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:39,542 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:39,542 - INFO - Page 26: 10 recalls, 0 new
+2026-03-25 06:56:39,546 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:39,554 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:39,554 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:43,074 - INFO - Scraping page 27
+2026-03-25 06:56:43,090 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:43,216 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:43,217 - INFO - Page 27: 10 recalls, 0 new
+2026-03-25 06:56:43,220 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:43,226 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:43,226 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:46,748 - INFO - Scraping page 28
+2026-03-25 06:56:46,769 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:46,889 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:46,889 - INFO - Page 28: 10 recalls, 0 new
+2026-03-25 06:56:46,892 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:46,897 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:46,897 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:50,412 - INFO - Scraping page 29
+2026-03-25 06:56:50,422 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:50,538 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:50,538 - INFO - Page 29: 10 recalls, 0 new
+2026-03-25 06:56:50,541 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:50,546 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:50,546 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:54,063 - INFO - Scraping page 30
+2026-03-25 06:56:54,082 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:54,203 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:54,203 - INFO - Page 30: 10 recalls, 0 new
+2026-03-25 06:56:54,206 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:54,211 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:54,211 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:56:57,723 - INFO - Scraping page 31
+2026-03-25 06:56:57,741 - INFO - Found 10 table rows on current page
+2026-03-25 06:56:57,862 - INFO - Extracted 10 URLs from table
+2026-03-25 06:56:57,862 - INFO - Page 31: 10 recalls, 0 new
+2026-03-25 06:56:57,865 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:56:57,869 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:56:57,870 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:01,386 - INFO - Scraping page 32
+2026-03-25 06:57:01,405 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:01,523 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:01,523 - INFO - Page 32: 10 recalls, 0 new
+2026-03-25 06:57:01,526 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:01,531 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:01,531 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:05,047 - INFO - Scraping page 33
+2026-03-25 06:57:05,066 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:05,185 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:05,186 - INFO - Page 33: 10 recalls, 0 new
+2026-03-25 06:57:05,188 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:05,193 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:05,193 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:08,710 - INFO - Scraping page 34
+2026-03-25 06:57:08,728 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:08,848 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:08,848 - INFO - Page 34: 10 recalls, 0 new
+2026-03-25 06:57:08,851 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:08,856 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:08,856 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:12,372 - INFO - Scraping page 35
+2026-03-25 06:57:12,391 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:12,508 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:12,508 - INFO - Page 35: 10 recalls, 0 new
+2026-03-25 06:57:12,511 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:12,516 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:12,516 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:16,031 - INFO - Scraping page 36
+2026-03-25 06:57:16,052 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:16,173 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:16,173 - INFO - Page 36: 10 recalls, 0 new
+2026-03-25 06:57:16,175 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:16,180 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:16,180 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:19,694 - INFO - Scraping page 37
+2026-03-25 06:57:19,711 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:19,833 - INFO - Extracted 11 URLs from table
+2026-03-25 06:57:19,833 - INFO - Page 37: 11 recalls, 0 new
+2026-03-25 06:57:19,836 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:19,841 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:19,841 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:23,356 - INFO - Scraping page 38
+2026-03-25 06:57:23,377 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:23,500 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:23,500 - INFO - Page 38: 10 recalls, 0 new
+2026-03-25 06:57:23,502 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:23,507 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:23,507 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:27,025 - INFO - Scraping page 39
+2026-03-25 06:57:27,042 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:27,159 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:27,159 - INFO - Page 39: 10 recalls, 0 new
+2026-03-25 06:57:27,162 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:27,167 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:27,167 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:30,684 - INFO - Scraping page 40
+2026-03-25 06:57:30,703 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:30,824 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:30,824 - INFO - Page 40: 10 recalls, 0 new
+2026-03-25 06:57:30,826 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:30,831 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:30,831 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:34,344 - INFO - Scraping page 41
+2026-03-25 06:57:34,359 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:34,482 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:34,482 - INFO - Page 41: 10 recalls, 0 new
+2026-03-25 06:57:34,484 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:34,489 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:34,490 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:38,006 - INFO - Scraping page 42
+2026-03-25 06:57:38,024 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:38,142 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:38,142 - INFO - Page 42: 10 recalls, 0 new
+2026-03-25 06:57:38,145 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:38,150 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:38,150 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:41,667 - INFO - Scraping page 43
+2026-03-25 06:57:41,684 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:41,804 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:41,804 - INFO - Page 43: 10 recalls, 0 new
+2026-03-25 06:57:41,806 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:41,811 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:41,811 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:45,329 - INFO - Scraping page 44
+2026-03-25 06:57:45,347 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:45,467 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:45,468 - INFO - Page 44: 10 recalls, 0 new
+2026-03-25 06:57:45,470 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:45,475 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:45,475 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:48,987 - INFO - Scraping page 45
+2026-03-25 06:57:49,009 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:49,130 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:49,130 - INFO - Page 45: 10 recalls, 0 new
+2026-03-25 06:57:49,132 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:49,137 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:49,137 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:52,654 - INFO - Scraping page 46
+2026-03-25 06:57:52,673 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:52,795 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:52,795 - INFO - Page 46: 10 recalls, 0 new
+2026-03-25 06:57:52,798 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:52,803 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:52,803 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:56,320 - INFO - Scraping page 47
+2026-03-25 06:57:56,339 - INFO - Found 10 table rows on current page
+2026-03-25 06:57:56,461 - INFO - Extracted 10 URLs from table
+2026-03-25 06:57:56,461 - INFO - Page 47: 10 recalls, 0 new
+2026-03-25 06:57:56,463 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:57:56,468 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:57:56,469 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:57:59,984 - INFO - Scraping page 48
+2026-03-25 06:58:00,002 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:00,124 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:00,124 - INFO - Page 48: 10 recalls, 0 new
+2026-03-25 06:58:00,126 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:00,132 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:00,132 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:03,648 - INFO - Scraping page 49
+2026-03-25 06:58:03,666 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:03,790 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:03,790 - INFO - Page 49: 10 recalls, 0 new
+2026-03-25 06:58:03,793 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:03,798 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:03,798 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:07,315 - INFO - Scraping page 50
+2026-03-25 06:58:07,336 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:07,459 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:07,459 - INFO - Page 50: 10 recalls, 0 new
+2026-03-25 06:58:07,461 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:07,466 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:07,466 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:10,984 - INFO - Scraping page 51
+2026-03-25 06:58:11,002 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:11,123 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:11,123 - INFO - Page 51: 10 recalls, 0 new
+2026-03-25 06:58:11,125 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:11,130 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:11,130 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:14,649 - INFO - Scraping page 52
+2026-03-25 06:58:14,667 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:14,787 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:14,787 - INFO - Page 52: 10 recalls, 0 new
+2026-03-25 06:58:14,790 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:14,795 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:14,795 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:18,311 - INFO - Scraping page 53
+2026-03-25 06:58:18,330 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:18,450 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:18,450 - INFO - Page 53: 10 recalls, 0 new
+2026-03-25 06:58:18,453 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:18,458 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:18,458 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:21,975 - INFO - Scraping page 54
+2026-03-25 06:58:21,992 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:22,110 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:22,110 - INFO - Page 54: 10 recalls, 0 new
+2026-03-25 06:58:22,113 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:22,118 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:22,118 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:25,633 - INFO - Scraping page 55
+2026-03-25 06:58:25,651 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:25,773 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:25,773 - INFO - Page 55: 10 recalls, 0 new
+2026-03-25 06:58:25,776 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:25,781 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:25,781 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:29,294 - INFO - Scraping page 56
+2026-03-25 06:58:29,313 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:29,436 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:29,436 - INFO - Page 56: 10 recalls, 0 new
+2026-03-25 06:58:29,439 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:29,444 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:29,444 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:32,961 - INFO - Scraping page 57
+2026-03-25 06:58:32,980 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:33,105 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:33,105 - INFO - Page 57: 10 recalls, 0 new
+2026-03-25 06:58:33,108 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:33,113 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:33,113 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:36,630 - INFO - Scraping page 58
+2026-03-25 06:58:36,650 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:36,773 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:36,773 - INFO - Page 58: 10 recalls, 0 new
+2026-03-25 06:58:36,776 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:36,781 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:36,781 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:40,297 - INFO - Scraping page 59
+2026-03-25 06:58:40,315 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:40,439 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:40,439 - INFO - Page 59: 10 recalls, 0 new
+2026-03-25 06:58:40,441 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:40,447 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:40,447 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:43,963 - INFO - Scraping page 60
+2026-03-25 06:58:43,981 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:44,102 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:44,102 - INFO - Page 60: 10 recalls, 0 new
+2026-03-25 06:58:44,105 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:44,110 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:44,110 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:47,626 - INFO - Scraping page 61
+2026-03-25 06:58:47,645 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:47,767 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:47,767 - INFO - Page 61: 10 recalls, 0 new
+2026-03-25 06:58:47,770 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:47,775 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:47,775 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:51,288 - INFO - Scraping page 62
+2026-03-25 06:58:51,305 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:51,423 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:51,423 - INFO - Page 62: 10 recalls, 0 new
+2026-03-25 06:58:51,425 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:51,431 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:51,431 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:54,951 - INFO - Scraping page 63
+2026-03-25 06:58:54,976 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:55,096 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:55,096 - INFO - Page 63: 10 recalls, 0 new
+2026-03-25 06:58:55,099 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:55,104 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:55,104 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:58:58,617 - INFO - Scraping page 64
+2026-03-25 06:58:58,636 - INFO - Found 10 table rows on current page
+2026-03-25 06:58:58,760 - INFO - Extracted 10 URLs from table
+2026-03-25 06:58:58,760 - INFO - Page 64: 10 recalls, 0 new
+2026-03-25 06:58:58,763 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:58:58,768 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:58:58,768 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:02,282 - INFO - Scraping page 65
+2026-03-25 06:59:02,300 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:02,426 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:02,426 - INFO - Page 65: 10 recalls, 0 new
+2026-03-25 06:59:02,428 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:02,433 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:02,433 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:05,950 - INFO - Scraping page 66
+2026-03-25 06:59:05,969 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:06,092 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:06,092 - INFO - Page 66: 10 recalls, 0 new
+2026-03-25 06:59:06,094 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:06,099 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:06,099 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:09,616 - INFO - Scraping page 67
+2026-03-25 06:59:09,635 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:09,757 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:09,757 - INFO - Page 67: 10 recalls, 0 new
+2026-03-25 06:59:09,760 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:09,765 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:09,765 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:13,278 - INFO - Scraping page 68
+2026-03-25 06:59:13,296 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:13,418 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:13,418 - INFO - Page 68: 10 recalls, 0 new
+2026-03-25 06:59:13,421 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:13,426 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:13,426 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:16,946 - INFO - Scraping page 69
+2026-03-25 06:59:16,965 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:17,086 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:17,086 - INFO - Page 69: 10 recalls, 0 new
+2026-03-25 06:59:17,089 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:17,094 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:17,094 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:20,607 - INFO - Scraping page 70
+2026-03-25 06:59:20,622 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:20,740 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:20,740 - INFO - Page 70: 10 recalls, 0 new
+2026-03-25 06:59:20,743 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:20,748 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:20,748 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:24,261 - INFO - Scraping page 71
+2026-03-25 06:59:24,278 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:24,398 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:24,398 - INFO - Page 71: 10 recalls, 0 new
+2026-03-25 06:59:24,400 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:24,405 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:24,405 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:27,917 - INFO - Scraping page 72
+2026-03-25 06:59:27,935 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:28,055 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:28,055 - INFO - Page 72: 10 recalls, 0 new
+2026-03-25 06:59:28,057 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:28,062 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:28,062 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:31,577 - INFO - Scraping page 73
+2026-03-25 06:59:31,595 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:31,715 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:31,715 - INFO - Page 73: 10 recalls, 0 new
+2026-03-25 06:59:31,717 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:31,722 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:31,722 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:35,239 - INFO - Scraping page 74
+2026-03-25 06:59:35,258 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:35,380 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:35,380 - INFO - Page 74: 10 recalls, 0 new
+2026-03-25 06:59:35,382 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:35,387 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:35,387 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:38,905 - INFO - Scraping page 75
+2026-03-25 06:59:38,925 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:39,045 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:39,045 - INFO - Page 75: 10 recalls, 0 new
+2026-03-25 06:59:39,047 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:39,053 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:39,053 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:42,569 - INFO - Scraping page 76
+2026-03-25 06:59:42,588 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:42,706 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:42,706 - INFO - Page 76: 10 recalls, 0 new
+2026-03-25 06:59:42,709 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:42,714 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:42,714 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:46,232 - INFO - Scraping page 77
+2026-03-25 06:59:46,252 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:46,374 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:46,374 - INFO - Page 77: 10 recalls, 0 new
+2026-03-25 06:59:46,377 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:46,382 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:46,382 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:49,899 - INFO - Scraping page 78
+2026-03-25 06:59:49,916 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:50,044 - INFO - Extracted 11 URLs from table
+2026-03-25 06:59:50,044 - INFO - Page 78: 11 recalls, 0 new
+2026-03-25 06:59:50,047 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:50,052 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:50,052 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:53,564 - INFO - Scraping page 79
+2026-03-25 06:59:53,582 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:53,710 - INFO - Extracted 11 URLs from table
+2026-03-25 06:59:53,710 - INFO - Page 79: 11 recalls, 0 new
+2026-03-25 06:59:53,712 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:53,717 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:53,717 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 06:59:57,234 - INFO - Scraping page 80
+2026-03-25 06:59:57,252 - INFO - Found 10 table rows on current page
+2026-03-25 06:59:57,371 - INFO - Extracted 10 URLs from table
+2026-03-25 06:59:57,372 - INFO - Page 80: 10 recalls, 0 new
+2026-03-25 06:59:57,374 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 06:59:57,379 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 06:59:57,379 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:00,895 - INFO - Scraping page 81
+2026-03-25 07:00:00,913 - INFO - Found 10 table rows on current page
+2026-03-25 07:00:01,036 - INFO - Extracted 10 URLs from table
+2026-03-25 07:00:01,036 - INFO - Page 81: 10 recalls, 0 new
+2026-03-25 07:00:01,039 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:01,044 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 07:00:01,044 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:04,558 - INFO - Scraping page 82
+2026-03-25 07:00:04,575 - INFO - Found 10 table rows on current page
+2026-03-25 07:00:04,694 - INFO - Extracted 10 URLs from table
+2026-03-25 07:00:04,694 - INFO - Page 82: 10 recalls, 0 new
+2026-03-25 07:00:04,697 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:04,702 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 07:00:04,702 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:08,218 - INFO - Scraping page 83
+2026-03-25 07:00:08,236 - INFO - Found 10 table rows on current page
+2026-03-25 07:00:08,355 - INFO - Extracted 10 URLs from table
+2026-03-25 07:00:08,355 - INFO - Page 83: 10 recalls, 0 new
+2026-03-25 07:00:08,358 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:08,363 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 07:00:08,363 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:11,879 - INFO - Scraping page 84
+2026-03-25 07:00:11,897 - INFO - Found 10 table rows on current page
+2026-03-25 07:00:12,020 - INFO - Extracted 10 URLs from table
+2026-03-25 07:00:12,021 - INFO - Page 84: 10 recalls, 0 new
+2026-03-25 07:00:12,023 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:12,028 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 07:00:12,028 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:15,548 - INFO - Scraping page 85
+2026-03-25 07:00:15,557 - INFO - Found 10 table rows on current page
+2026-03-25 07:00:15,672 - INFO - Extracted 10 URLs from table
+2026-03-25 07:00:15,672 - INFO - Page 85: 10 recalls, 0 new
+2026-03-25 07:00:15,674 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:15,680 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 07:00:15,680 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:19,194 - INFO - Scraping page 86
+2026-03-25 07:00:19,213 - INFO - Found 10 table rows on current page
+2026-03-25 07:00:19,334 - INFO - Extracted 10 URLs from table
+2026-03-25 07:00:19,334 - INFO - Page 86: 10 recalls, 0 new
+2026-03-25 07:00:19,337 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:19,342 - INFO - Next button: class='paginate_button next', text='Next'
+2026-03-25 07:00:19,342 - INFO - Found enabled next page button using selector: .paginate_button.next
+2026-03-25 07:00:22,859 - INFO - Scraping page 87
+2026-03-25 07:00:22,878 - INFO - Found 6 table rows on current page
+2026-03-25 07:00:22,957 - INFO - Extracted 6 URLs from table
+2026-03-25 07:00:22,957 - INFO - Page 87: 6 recalls, 0 new
+2026-03-25 07:00:22,960 - INFO - Selector '.paginate_button.next' found 1 elements
+2026-03-25 07:00:22,965 - INFO - Next button: class='paginate_button next disabled', text='Next'
+2026-03-25 07:00:22,965 - INFO - Next page button found but disabled or wrong text: .paginate_button.next
+2026-03-25 07:00:22,970 - INFO - Selector '#datatable_next' found 1 elements
+2026-03-25 07:00:22,976 - INFO - Next button: class='paginate_button next disabled', text='Next'
+2026-03-25 07:00:22,976 - INFO - Next page button found but disabled or wrong text: #datatable_next
+2026-03-25 07:00:22,980 - INFO - Selector '.pagination li.paginate_button.next' found 1 elements
+2026-03-25 07:00:22,985 - INFO - Next button: class='paginate_button next disabled', text='Next'
+2026-03-25 07:00:22,985 - INFO - Next page button found but disabled or wrong text: .pagination li.paginate_button.next
+2026-03-25 07:00:22,989 - INFO - Selector '.next' found 1 elements
+2026-03-25 07:00:22,994 - INFO - Next button: class='paginate_button next disabled', text='Next'
+2026-03-25 07:00:22,994 - INFO - Next page button found but disabled or wrong text: .next
+2026-03-25 07:00:22,994 - INFO - No next page link found or all next buttons are disabled
+2026-03-25 07:00:22,994 - INFO - No more pages found
+2026-03-25 07:00:22,997 - INFO - Results saved to /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/fda_seen_urls.json
+2026-03-25 07:00:22,997 - INFO - Scraping completed in 337.48 seconds
+2026-03-25 07:00:22,997 - INFO - Total recalls: 869
+2026-03-25 07:00:22,997 - INFO - New recalls: 1
+2026-03-25 07:00:22,997 - INFO - New URLs: 1
+2026-03-25 07:00:23,117 - INFO - WebDriver closed successfully
+2026-03-25 07:00:23,117 - INFO -  FDA completed: 1 new URLs in 337.60s
+2026-03-25 07:00:23,118 - INFO - 
+============================================================
+2026-03-25 07:00:23,118 - INFO -  Running FSIS Scraper
+2026-03-25 07:00:23,118 - INFO - ============================================================
+2026-03-25 07:00:23,118 - INFO - Setting up Chrome WebDriver for FSIS...
+2026-03-25 07:00:25,003 - INFO - Chrome WebDriver for FSIS initialized successfully
+2026-03-25 07:00:25,004 - INFO - FSIS: Loaded 30 existing URLs
+2026-03-25 07:00:26,352 - INFO - FSIS: Scraping page 1
+2026-03-25 07:00:26,352 - INFO - FSIS: Looking for recall links with current XPath...
+2026-03-25 07:00:26,361 - INFO - FSIS: Raw recall_links count = 0
+2026-03-25 07:00:26,361 - INFO - FSIS: Found 0 links, 0 new on this page
+2026-03-25 07:00:26,366 - INFO - FSIS: No 'Next' button found, assuming last page
+2026-03-25 07:00:26,366 - INFO - FSIS: Saved 30 total URLs to /Users/sharayu/CodeLab/GitHub/Product-Recall-Web-Scraping/data/seen/fsis_seen_urls.json
+2026-03-25 07:00:26,366 - INFO - FSIS: Completed with 0 new URLs in 1.36s
+2026-03-25 07:00:26,443 - INFO - FSIS WebDriver closed successfully
+2026-03-25 07:00:26,443 - INFO -  FSIS completed: 0 new URLs in 3.33s
+2026-03-25 07:00:26,443 - INFO - 
+============================================================
+2026-03-25 07:00:26,443 - INFO -  Running SCOUT (Product Recall) Scraper
+2026-03-25 07:00:26,443 - INFO - ============================================================
+2026-03-25 07:00:26,445 - ERROR -  SCOUT error: No module named 'undetected_chromedriver'
+2026-03-25 07:00:26,446 - INFO - SCOUT run result: success=False new_urls=0 error=No module named 'undetected_chromedriver'
+2026-03-25 07:00:26,446 - INFO -  Sending combined digest email (CPSC=0, FDA=1, FSIS=0, SCOUT=0)
+2026-03-25 07:00:37,340 - INFO - 
+============================================================
+2026-03-25 07:00:37,341 - INFO -  SUMMARY
+2026-03-25 07:00:37,341 - INFO - ============================================================
+2026-03-25 07:00:37,342 - INFO - Successful: 3
+2026-03-25 07:00:37,342 - INFO - Failed: 1
+2026-03-25 07:00:37,342 - INFO - Total URLs: 1
+2026-03-25 07:00:37,342 - INFO - Duration: 524.91s
+2026-03-25 07:00:37,342 - INFO - ============================================================
+
